@@ -10,7 +10,6 @@ const HeroSection = () => {
           align="center"
           color="textPrimary"
           gutterBottom
-          sx={{ marginTop: "2rem" }}
         >
           Photo Album
         </Typography>
