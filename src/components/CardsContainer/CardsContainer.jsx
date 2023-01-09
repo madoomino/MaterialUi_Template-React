@@ -3,6 +3,7 @@ import styles from "../../styles";
 const { StyledCardGrid, StyledCard, StyledCardMedia, StyledCardContent } =
   styles;
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const IMGS_URL = "https://source.unsplash.com/random/topics=sky";
 const CardsContainer = () => {
   return (
     <StyledCardGrid maxWidth="md">
@@ -11,7 +12,7 @@ const CardsContainer = () => {
           <Grid item maxWidth="sm" key={card} xs={12} sm={6} md={4}>
             <StyledCard>
               <StyledCardMedia
-                image="https://source.unsplash.com/random"
+                image={IMGS_URL}
                 title="image title"
               />
               <StyledCardContent>
